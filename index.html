@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>vending machine</title>
+</head>
+<body>
+    <img src="./img/Logo.png" alt="colacola_logo" class="cola_logo">
+    <main class="container">
+        <section class="section1">
+            <ul class="products">
+                <li class="coke coke1"><img src="./img/original_콜라.png" alt="original_cola"> Original_cola <div>1000원</div> </li>
+                <li class="coke coke2"><img src="./img/violet_콜라 (1).png" alt="violet_cola"> Violet_cola <div>1000원</div></li>
+                <li class="coke coke3"><img src="./img/_yellow콜라 (1).png" alt="yellow_cola"> Yellow_cola <div>1000원</div> </li>
+                <li class="coke coke4"><img src="./img/cool_콜라 (1).png" alt="cool_cola">Cool_cola <div>1000원</div> </li>
+                <li class="coke coke5"><img src="./img/green_콜라 (1).png" alt="green_cola">Green_cola <div>1000원</div> </li>
+                <li class="coke coke6"><img src="./img/orange_콜라 (1).png" alt="orange_cola">Orange_cola <div>1000원</div> </li>
+            </ul>
+            <article class="under_machine">
+                <div class="balance">
+                    <span>잔액 :</span>
+                    <span>1,000 원</span>
+                </div>
+                <button class="change">거스름돈 반환</button>
+                <input type="text" oninput="this.value = this.value.replace(/[^0-9.]/g, '').replace(/(\..*)\./g, '$1');"placeholder="입금액 입력" class="pay">
+                <button class="deposit">입금</button>
+                <ul class="select_list">
+                    <li class="list list1">Original_cola <span class="span">1</span></li>
+                    <li class="list list2">Green_cola <span class="span">2</span></li>
+                    <li class="list list3">Yellow_cola <span class="span">3</span></li>
+                    <li class="list list4">Cool_cola <span class="span">4</span></li>
+                    <li class="list list5">Orange_cola <span class="span">5</span></li>
+                </ul>
+                <button class="get">획득</button>
+            </article>
+        </section>
+        <section class="section2">
+            <div class="money">
+                <span>소지금 :</span>
+                <span>25,000 원</span>
+            </div>
+        </section>
+        <section class="section3">
+            <p >획득한 음료</p>
+            <ul class="drink_list ">
+                <li class="drink drink1">Original_cola <span class="span">1</span></li>
+                <li class="drink drink2">Green_cola <span class="span">2</span></li>
+                <li class="drink drink5">Orange_cola <span class="span">1</span></li>
+                <li class="drink drink6">Violet_cola <span class="span">5</span></li>
+            </ul>
+            <div class="total">총금액 : 9,000 원</div>
+        </section>
+    </main>
+    
+</body>
+</html>

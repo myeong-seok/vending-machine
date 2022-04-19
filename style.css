@@ -1,0 +1,375 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+body {
+    background: #EAE8FE;
+}
+
+li{
+    list-style: none;
+}
+
+.cola_logo {
+    display: block;
+    width: 386px;
+    height: 180px;
+    margin: 0 auto;
+}
+
+.container {
+    margin: 67px auto;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: repeat(2, 360px);
+    grid-template-rows: repeat(11, 50px);
+    column-gap: 20px;
+    
+}
+
+.section1{
+    grid-column: 1/2;
+    grid-row: 1/12;
+    background-color: white;
+    padding: 31px 27px 28px;
+}
+
+.products {
+    display: grid;
+    grid-template-columns: 94px 94px 94px;
+    grid-template-rows: 130px 130px;
+    gap: 12px;
+}
+
+.coke {
+    display: grid;
+    width: 94px;
+    border: 1px solid #BDBDBD;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.5));
+    border-radius: 10px;
+    align-items: center;
+    justify-items: center;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 13px;
+    color: #333333;
+    position: relative;
+}
+
+.coke2::after {
+    content: url(./img/품절\ 표시.png);
+    position: absolute;
+    z-index: 10;
+}
+
+.coke1,.coke5 {
+    border: 3px solid #6327FE;
+    border-radius: 10px;
+}
+
+.products div {
+    width: 70px;
+    padding: 5px 15px;
+    background: #6327FE;
+    border-radius: 50px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 100%;
+    color: #ffffff;
+    box-sizing: border-box;
+}
+
+
+.under_machine{
+    display: grid;
+    grid-template-columns: 200px 94px;
+    grid-template-rows: 33px 33px 106px;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.balance {
+    background-color: #EAE8FE;
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 10px 7px;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.change {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    filter: drop-shadow(0px 0px 4px rgba(0, 0, 0, 0.5));
+    border-radius: 5px;
+    background-color: #ffffff;
+    border: none;
+}
+
+.pay {
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.deposit {
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 19px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 5px;
+    border: 1px solid #BDBDBD;
+}
+
+.select_list {
+    width: 200px;
+    padding: 12px;
+    overflow: auto;
+    background: #EAE8FE;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.select_list::-webkit-scrollbar {
+    background-color: #EAE8FE;
+    width: 4px;
+}
+
+.select_list::-webkit-scrollbar-track {
+    border-radius: 50px;
+}
+
+.select_list::-webkit-scrollbar-thumb{
+    background-color: #fff;
+    height: 79px;
+    border-radius: 50px;
+}
+
+.list {
+    width: 170px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 13px;
+    color: #333333;
+}
+
+.list1::before {
+    content: '';
+    width: 18px;
+    height: 33px;
+    background: url("./img/original_콜라.png") no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.list2::before {
+    content: '';
+    width: 18px;
+    height: 33px;
+    background: url("./img/violet_콜라\ \(1\).png") no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.list3::before {
+    content: '';
+    width: 18px;
+    height: 33px;
+    background: url("./img/_yellow콜라\ \(1\).png") no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.list4::before {
+    content: '';
+    width: 18px;
+    height: 33px;
+    background: url("./img/cool_콜라\ \(1\).png") no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.list5::before {
+    content: '';
+    width: 18px;
+    height: 33px;
+    background: url("./img/orange_콜라\ \(1\).png") no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.list6::before {
+    content: '';
+    width: 18px;
+    height: 33px;
+    background: url("./img/violet_콜라\ \(1\).png") no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.span {
+    display: flex;
+    width: 30px;
+    align-items: center;
+    text-align: center;
+    padding: 4px 11px 6px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    border: 1px solid #BDBDBD;
+    box-sizing: border-box;
+    border-radius: 5px;
+}
+
+.list ~ .list {
+    margin-top: 6px;
+}
+
+.get {
+    background: #6327FE;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 13px;
+    line-height: 19px;
+    color: #FFFFFF;
+    box-shadow: 0px 0px 4px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    border: 1px solid #BDBDBD;
+}
+
+.section2 {
+    grid-column: 2/3;
+    grid-row: 1/2;
+    background-color: white;
+    padding: 9px 27px;
+}
+
+.money{
+    width: 306px;
+    display: flex;
+    justify-content: space-between;
+    background-color: #EAE8FE;
+    border-radius: 5px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+    align-items: center;
+    padding: 6px 10px;
+    box-sizing: border-box;
+}
+
+.section3 {
+    grid-column: 2/3;
+    grid-row: 2/12;
+    background-color: white;
+    margin-top: 20px;
+    padding: 25px 27px;
+}
+
+.section3 p {
+    margin: 0 auto;
+    width: 69px;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 20px;
+}
+
+.drink_list {
+    margin-top: 13px;
+    width: 306px;
+    background-color: #EAE8FE;
+    box-sizing: border-box;
+    padding: 12px 18px 120px 12px;
+    border-radius: 5px;
+    border: 1px solid #BDBDBD;
+}
+
+.drink {
+    width: 276px;
+    background-color: #ffffff;
+    border-radius: 10px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 9px;
+    line-height: 13px;
+    color: #333333;
+}
+
+.drink1::before {
+    content: '';
+    width: 18px;
+    height: 33px;
+    background: url("./img/original_콜라.png") no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.drink2::before {
+    content: '';
+    width: 18px;
+    height: 33px;
+    background: url("./img/green_콜라\ \(1\).png") no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.drink5::before {
+    content: '';
+    width: 18px;
+    height: 33px;
+    background: url("./img/orange_콜라\ \(1\).png") no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.drink6::before {
+    content: '';
+    width: 18px;
+    height: 33px;
+    background: url("./img/violet_콜라\ \(1\).png") no-repeat;
+    background-size: cover;
+    margin: 10px;
+}
+
+.drink ~ .drink {
+    margin-top: 6px;
+}
+
+.total {
+    float: right;
+    text-align: right;
+    margin-top: 11px;
+    width: 109px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 17px;
+}
