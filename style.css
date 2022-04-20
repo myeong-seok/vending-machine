@@ -160,7 +160,6 @@ li{
 }
 
 .list {
-    width: 170px;
     background-color: #ffffff;
     border-radius: 10px;
     box-sizing: border-box;
@@ -301,73 +300,17 @@ li{
 .drink_list {
     margin-top: 13px;
     width: 306px;
+    height: 364px;
     background-color: #EAE8FE;
     box-sizing: border-box;
-    padding: 12px 18px 120px 12px;
+    padding: 12px;
     border-radius: 5px;
     border: 1px solid #BDBDBD;
 }
 
-.drink {
-    width: 276px;
-    background-color: #ffffff;
-    border-radius: 10px;
-    box-sizing: border-box;
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    font-style: normal;
-    font-weight: 500;
-    font-size: 9px;
-    line-height: 13px;
-    color: #333333;
-}
-
-.drink1::before {
-    content: '';
-    width: 18px;
-    height: 33px;
-    background: url("./img/original_콜라.png") no-repeat;
-    background-size: cover;
-    margin: 10px;
-}
-
-.drink2::before {
-    content: '';
-    width: 18px;
-    height: 33px;
-    background: url("./img/green_콜라\ \(1\).png") no-repeat;
-    background-size: cover;
-    margin: 10px;
-}
-
-.drink5::before {
-    content: '';
-    width: 18px;
-    height: 33px;
-    background: url("./img/orange_콜라\ \(1\).png") no-repeat;
-    background-size: cover;
-    margin: 10px;
-}
-
-.drink6::before {
-    content: '';
-    width: 18px;
-    height: 33px;
-    background: url("./img/violet_콜라\ \(1\).png") no-repeat;
-    background-size: cover;
-    margin: 10px;
-}
-
-.drink ~ .drink {
-    margin-top: 6px;
-}
-
 .total {
     float: right;
-    text-align: right;
     margin-top: 11px;
-    width: 109px;
     font-style: normal;
     font-weight: 500;
     font-size: 12px;
