@@ -179,7 +179,7 @@ li{
     height: 33px;
     background: url("./img/original_콜라.png") no-repeat;
     background-size: cover;
-    margin: 10px;
+    margin: 10px 0px;
 }
 
 .list2::before {
@@ -188,7 +188,7 @@ li{
     height: 33px;
     background: url("./img/green_콜라\ \(1\).png") no-repeat;
     background-size: cover;
-    margin: 10px;
+    margin: 10px 0px;
 }
 
 .list3::before {
@@ -197,7 +197,7 @@ li{
     height: 33px;
     background: url("./img/yellow_콜라\ \(1\).png") no-repeat;
     background-size: cover;
-    margin: 10px;
+    margin: 10px 0px;
 }
 
 .list4::before {
@@ -206,7 +206,7 @@ li{
     height: 33px;
     background: url("./img/cool_콜라\ \(1\).png") no-repeat;
     background-size: cover;
-    margin: 10px;
+    margin: 10px 0px;
 }
 
 .list5::before {
@@ -215,7 +215,7 @@ li{
     height: 33px;
     background: url("./img/orange_콜라\ \(1\).png") no-repeat;
     background-size: cover;
-    margin: 10px;
+    margin: 10px 0px;
 }
 
 .list6::before {
@@ -224,7 +224,7 @@ li{
     height: 33px;
     background: url("./img/violet_콜라\ \(1\).png") no-repeat;
     background-size: cover;
-    margin: 10px;
+    margin: 10px 0px;
 }
 
 .span {
